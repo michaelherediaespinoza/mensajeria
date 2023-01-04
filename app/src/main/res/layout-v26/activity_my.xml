@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/amor1"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/example001"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp">
+
+        <EditText
+            android:id="@+id/txtMensaje"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textStyle="bold|italic"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:ems="10"
+            android:focusable="true"
+            android:gravity="center"
+            android:hint="@string/porfavor_escriba_el_mensaje"
+            android:inputType="textPersonName"
+            android:singleLine="true"
+            android:theme="@style/CampoTextoPurpura" />
+
+        <ImageButton
+            android:id="@+id/btnGuardar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/custom_imgbtn"
+            android:contentDescription="TODO"
+            app:srcCompat="@android:drawable/ic_menu_send" />
+    </LinearLayout>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/simpleSwipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ListView
+        android:id="@+id/listAllProducts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="3dp"
+        android:layout_marginTop="5dp"/>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+</LinearLayout>

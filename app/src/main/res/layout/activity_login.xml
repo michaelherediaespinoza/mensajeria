@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/milove"
+    tools:context=".LoginActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <!-- app:srcCompat="@drawable/developeru"
+            Esto es para comentarios
+            !-->
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="151dp"
+                android:layout_height="113dp"
+                android:layout_marginBottom="40dp" />
+
+            <EditText
+                android:id="@+id/txtUsuarioo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="@color/Navy"
+                android:textStyle="bold|italic"
+                android:backgroundTint="@android:color/darker_gray"
+                android:drawableLeft="@drawable/icon_email"
+                android:ems="10"
+                android:hint="Usuario"
+                android:inputType="textPersonName"
+                android:paddingLeft="5dp" />
+
+            <EditText
+                android:id="@+id/txtPasswordd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/Red"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="8dp"
+                android:textStyle="bold|italic"
+                android:backgroundTint="@android:color/darker_gray"
+                android:drawableLeft="@drawable/icon_lock"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:paddingLeft="5dp" />
+
+            <Button
+                android:id="@+id/btnLoginn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="15dp"
+                android:textStyle="bold|italic"
+                android:background="@drawable/custom_dialog3"
+                android:text="Iniciar Sesión"
+                android:textColor="#FFF"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnCrearNewCuenta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="15dp"
+                android:textStyle="bold|italic"
+                android:background="@drawable/custom_dialog3"
+                android:text="Crear Nueva Cuenta"
+                android:textColor="#FFF"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+</RelativeLayout>

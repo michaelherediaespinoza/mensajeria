@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/single_post_tv_fecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:layout_marginLeft="75dp"
+        android:padding="10dp"
+        android:text="nombre"
+        android:textColor="#E71E0E"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/single_post_tv_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:layout_marginLeft="100dp"
+        android:padding="10dp"
+        android:text="nombre"
+        android:textColor="#0CD9FA"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/single_post_tv_mensaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginLeft="2dp"
+        android:paddingBottom="2dip"
+        android:text="favorito"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#5206EB"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/teal</item>
+        <item name="colorPrimaryDark">@color/blue</item>
+        <item name="colorAccent">@color/LightSeaGreen</item>
+    </style>
+
+    <style name="CampoTextoPurpura" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">#CE93D8</item>
+        <item name="colorControlActivated">#AB47BC</item>
+        <item name="android:textColorHighlight">#E1BEE7</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

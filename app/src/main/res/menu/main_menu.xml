@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/actu_sms"
+        android:icon="@drawable/ic_refresh"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="1"
+        android:title="Update SMS">
+    </item>
+
+    <item
+        android:id="@+id/actu_nombre"
+        app:showAsAction="never"
+        app:iconTint="#008aff"
+        android:orderInCategory="1"
+        android:title="Actualizar nombre">
+    </item>
+
+    <item
+        android:id="@+id/eliminar_sms"
+        app:showAsAction="withText"
+        android:title="Eliminar SMS" />
+
+    <item
+        android:id="@+id/actu_login"
+        app:showAsAction="never"
+        app:iconTint="#008aff"
+        android:orderInCategory="1"
+        android:title="Actualizar Login">
+    </item>
+
+    <item
+        android:id="@+id/galeriaIma"
+        app:showAsAction="never"
+        app:iconTint="#008aff"
+        android:orderInCategory="1"
+        android:title="Galeria de Imgenes">
+    </item>
+
+    <item
+        android:id="@+id/subirImagen"
+        app:showAsAction="never"
+        app:iconTint="#008aff"
+        android:orderInCategory="1"
+        android:title="Enviar Imagen">
+    </item>
+
+    <item
+        android:id="@+id/cerrarSesion"
+        app:showAsAction="never"
+        app:iconTint="#008aff"
+        android:orderInCategory="1"
+        android:title="Cerrar Sesión">
+    </item>
+
+    <item
+        android:id="@+id/salir"
+        app:showAsAction="never"
+        app:iconTint="#008aff"
+        android:orderInCategory="1"
+        android:title="Salir">
+    </item>
+
+
+</menu>
